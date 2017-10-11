@@ -1,23 +1,21 @@
-
 html {
-  background: url("http://res.cloudinary.com/sklemm/image/upload/v1506572984/yeehaw_h6rja4.jpg") no-repeat center center fixed; 
+  background: url("http://res.cloudinary.com/sklemm/image/upload/v1506572984/yeehaw_h6rja4.jpg")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-body
-{
-  font-family: 'Lato', sans-serif;
-  font-weight: 300
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
 }
 
-h1{
-  text-align:center;
+h1 {
+  text-align: center;
   font-weight: 400;
-  text-shadow: 0px 0px 4px rgba(255,255,255,.8);
- 
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
 }
 
 .container {
@@ -25,23 +23,32 @@ h1{
   top: 10%;
   right: 20%;
   padding: 20px;
-  background: rgba(71, 169, 190, .6);
-  /* in case of pic change, uncomment
-  right:0;*/
+  background: rgba(71, 169, 190, 0.6);
+  right: 0;
 }
 
-.words{
-  text-shadow: 0px 0px 4px rgba(255,255,255,.8);
+.menu {
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  padding: 20px;
+  background: #673c7b;
+  left: 0;
+  opacity: 0.6;
+}
+
+.words {
+  text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
   font-weight: 400;
+  text-align: center;
 }
 
-.corneredlinks{
+.corneredlinks {
   display: flex;
   justify-content: space-between;
 }
 
 a {
   color: #fff;
-}  
-  
-
+  padding: 0 5px;
+}
